@@ -126,10 +126,11 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     height: 200px;
     background-color: gray;
-    color: white;
+    color: rgb(255, 250, 209);
     text-shadow: 2px 1px 1px black;
     margin-top: 10px;
 }
