@@ -162,12 +162,10 @@ footer{
 
     .categories{
         gap: 1rem;
-        padding-left: 20px;
-        margin-right: 20px;
     }
 
     .categories a{
-        
+        font-size: 9px;
 
     }
 
@@ -176,3 +174,24 @@ footer{
     }
 }
 
+@media (max-width:450px){
+    .img-container{
+        height: 150px;
+    }
+}
+
+@media (max-width:350px){
+    .img-container{
+        height: 100px;
+    }
+
+    nav h1{
+        font-size: 15px;
+    }
+    .categories{
+        gap: 0.5rem;
+    }
+    .categories a{
+        font-size: 10px;
+    }
+}
